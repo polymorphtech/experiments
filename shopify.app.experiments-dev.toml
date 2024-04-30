@@ -3,7 +3,7 @@
 client_id = "3778507ce8907b75408992a96b3e6137"
 name = "experiments-dev"
 handle = "experiments-dev"
-application_url = "https://words-paintings-below-china.trycloudflare.com"
+application_url = "https://nelson-florida-passed-clubs.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://words-paintings-below-china.trycloudflare.com/auth/callback",
-  "https://words-paintings-below-china.trycloudflare.com/auth/shopify/callback",
-  "https://words-paintings-below-china.trycloudflare.com/api/auth/callback"
+  "https://nelson-florida-passed-clubs.trycloudflare.com/auth/callback",
+  "https://nelson-florida-passed-clubs.trycloudflare.com/auth/shopify/callback",
+  "https://nelson-florida-passed-clubs.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

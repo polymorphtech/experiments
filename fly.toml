@@ -1,0 +1,28 @@
+# fly.toml app configuration file generated for experiments-fly on 2024-04-29T20:20:53-04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'experiments-fly'
+primary_region = 'ewr'
+
+[build]
+
+[env]
+  PORT = "3000"
+  SHOPIFY_APP_URL = "https://experiments-fly.fly.dev/"
+  SHOPIFY_API_KEY = "9e22cccade9ddf563dc7a038ddacb4f2"
+  SCOPES = "write_products"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

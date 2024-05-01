@@ -32,7 +32,7 @@ const EmptyQRCodeState = ({ onAction }) => (
       content: "Create QR code",
       onAction,
     }}
-    image="https://cdn.shopify.com/s/files/1/0262/4071/2726/files/emptystate-files.png"
+    image="https://buffer.com/library/content/images/2023/10/free-images.jpg"
   >
     <p>Allow customers to scan codes and buy products using their phones.</p>
   </EmptyState>

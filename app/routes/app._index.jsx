@@ -12,9 +12,9 @@ import {
   Icon,
   InlineStack,
 } from "@shopify/polaris";
+import { DiamondAlertMajor, ImageMajor } from "@shopify/polaris-icons";
 
 import { getQRCodes } from "../models/QRCode.server";
-import { DiamondAlertMajor, ImageMajor } from "@shopify/polaris-icons";
 
 export async function loader({ request }) {
   const { admin, session } = await authenticate.admin(request);
@@ -105,11 +105,13 @@ export default function Index() {
 
   return (
     <Page>
+      
       <ui-title-bar title="QR codes">
         <button variant="primary" onClick={() => navigate("/app/qrcodes/new")}>
           Create QR code
         </button>
       </ui-title-bar>
+
       <Layout>
         <Layout.Section>
           <Card padding="0">
@@ -121,6 +123,7 @@ export default function Index() {
           </Card>
         </Layout.Section>
       </Layout>
+
     </Page>
   );
 }

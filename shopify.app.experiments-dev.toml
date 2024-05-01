@@ -3,7 +3,7 @@
 client_id = "3778507ce8907b75408992a96b3e6137"
 name = "experiments-dev"
 handle = "experiments-dev"
-application_url = "https://nelson-florida-passed-clubs.trycloudflare.com"
+application_url = "https://traditions-watches-strong-systems.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://nelson-florida-passed-clubs.trycloudflare.com/auth/callback",
-  "https://nelson-florida-passed-clubs.trycloudflare.com/auth/shopify/callback",
-  "https://nelson-florida-passed-clubs.trycloudflare.com/api/auth/callback"
+  "https://traditions-watches-strong-systems.trycloudflare.com/auth/callback",
+  "https://traditions-watches-strong-systems.trycloudflare.com/auth/shopify/callback",
+  "https://traditions-watches-strong-systems.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

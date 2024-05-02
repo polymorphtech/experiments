@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { json } from "@remix-run/node";
 import { Link, Outlet, useLoaderData, useRouteError } from "@remix-run/react";
 import polarisStyles from "@shopify/polaris/build/esm/styles.css";
@@ -16,7 +17,10 @@ export const loader = async ({ request }) => {
 
 export default function App() {
   const { apiKey } = useLoaderData();
-  Crisp.configure("f6503c1d-55f0-4bf6-85c6-3a3cdc75e0b3");
+
+  useEffect(() => {
+    Crisp.configure("f6503c1d-55f0-4bf6-85c6-3a3cdc75e0b3");
+  }, []);
 
   return (
     <AppProvider isEmbeddedApp apiKey={apiKey}>

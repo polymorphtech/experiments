@@ -7,7 +7,9 @@ dev branch with local dev and Cloudflare tunnelling setup
 distinct shopify apps, one for each branch
 
 crisp chat
-heatmap
+session rewind/heatmap
 javascript tutorial
 testing infra
 website polymorphtech.xyz
+analytics pixels
+prisma on volume

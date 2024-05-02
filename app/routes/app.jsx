@@ -1,11 +1,9 @@
-import { useEffect } from "react";
 import { json } from "@remix-run/node";
 import { Link, Outlet, useLoaderData, useRouteError } from "@remix-run/react";
 import polarisStyles from "@shopify/polaris/build/esm/styles.css";
 import { boundary } from "@shopify/shopify-app-remix/server";
 import { AppProvider } from "@shopify/shopify-app-remix/react";
 import { authenticate } from "../shopify.server";
-import { Crisp } from "crisp-sdk-web";
 
 export const links = () => [{ rel: "stylesheet", href: polarisStyles }];
 
@@ -17,10 +15,6 @@ export const loader = async ({ request }) => {
 
 export default function App() {
   const { apiKey } = useLoaderData();
-
-  useEffect(() => {
-    Crisp.configure("f6503c1d-55f0-4bf6-85c6-3a3cdc75e0b3");
-  }, []);
 
   return (
     <AppProvider isEmbeddedApp apiKey={apiKey}>

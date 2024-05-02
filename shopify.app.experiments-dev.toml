@@ -3,7 +3,7 @@
 client_id = "3778507ce8907b75408992a96b3e6137"
 name = "experiments-dev"
 handle = "experiments-dev"
-application_url = "https://beat-historical-inexpensive-duties.trycloudflare.com"
+application_url = "https://makers-grain-effect-kruger.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://beat-historical-inexpensive-duties.trycloudflare.com/auth/callback",
-  "https://beat-historical-inexpensive-duties.trycloudflare.com/auth/shopify/callback",
-  "https://beat-historical-inexpensive-duties.trycloudflare.com/api/auth/callback"
+  "https://makers-grain-effect-kruger.trycloudflare.com/auth/callback",
+  "https://makers-grain-effect-kruger.trycloudflare.com/auth/shopify/callback",
+  "https://makers-grain-effect-kruger.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

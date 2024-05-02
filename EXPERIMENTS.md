@@ -6,7 +6,6 @@ dev branch with local dev and Cloudflare tunnelling setup
 
 distinct shopify apps, one for each branch
 
-toast
 crisp chat
 heatmap
 javascript tutorial

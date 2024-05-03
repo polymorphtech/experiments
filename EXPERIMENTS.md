@@ -8,7 +8,9 @@ distinct shopify apps, one for each branch
 
 crisp chat
 session rewind/heatmap
+email infra
 javascript tutorial
+
 testing infra
 website polymorphtech.xyz
 analytics pixels

@@ -23,6 +23,8 @@ function sessionRewind(o) {
 export default function App() {
 
   useEffect(() => {
+    console.log("useEffect called");
+
     Crisp.configure("f6503c1d-55f0-4bf6-85c6-3a3cdc75e0b3");
 
     if (!window.SessionRewindConfig){

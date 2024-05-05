@@ -3,7 +3,7 @@
 client_id = "3778507ce8907b75408992a96b3e6137"
 name = "experiments-dev"
 handle = "experiments-dev"
-application_url = "https://makers-grain-effect-kruger.trycloudflare.com"
+application_url = "https://stones-broadcast-season-preserve.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://makers-grain-effect-kruger.trycloudflare.com/auth/callback",
-  "https://makers-grain-effect-kruger.trycloudflare.com/auth/shopify/callback",
-  "https://makers-grain-effect-kruger.trycloudflare.com/api/auth/callback"
+  "https://stones-broadcast-season-preserve.trycloudflare.com/auth/callback",
+  "https://stones-broadcast-season-preserve.trycloudflare.com/auth/shopify/callback",
+  "https://stones-broadcast-season-preserve.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

@@ -9,8 +9,12 @@ import {
   BlockStack,
 } from "@shopify/polaris";
 
+export const loader = async ({ request }) => {
+  return null;
+};
+
 export default function AdditionalPage() {
-  
+
   return (
     <Page>
       <ui-title-bar title="Additional page" />

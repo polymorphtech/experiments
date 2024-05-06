@@ -8,8 +8,32 @@ import {
   Text,
   BlockStack,
 } from "@shopify/polaris";
+//import 'dotenv/config';
+import { MailerSend, EmailParams, Sender, Recipient } from "../utils.server";
 
 export const loader = async ({ request }) => {
+  console.log("In Loader ...");
+
+  const mailerSend = new MailerSend({
+    apiKey: "mlsn.a5f27c4809405fd5fd177337cf2283b718c120d3886fe912e42467dde5ece4dc",
+  });
+
+  const sentFrom = new Sender("team@polymorphtech.xyz", "Your name");
+
+  const recipients = [
+    new Recipient("team@polymorphtech.xyz", "Your Client")
+  ];
+
+  const emailParams = new EmailParams()
+    .setFrom(sentFrom)
+    .setTo(recipients) 
+    .setReplyTo(sentFrom)
+    .setSubject("This is a Subject - experiments")
+    .setHtml("<strong>This is the HTML content</strong> - experiments")
+    .setText("This is the text content - experiments");
+
+    await mailerSend.email.send(emailParams);
+  
   return null;
 };
 

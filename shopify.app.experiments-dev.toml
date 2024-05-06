@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "3778507ce8907b75408992a96b3e6137"
+client_id = "151121ee088bb376465b34333a7c8c51"
 name = "experiments-dev"
 handle = "experiments-dev"
-application_url = "https://stones-broadcast-season-preserve.trycloudflare.com"
+application_url = "https://induced-brake-judicial-copied.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://stones-broadcast-season-preserve.trycloudflare.com/auth/callback",
-  "https://stones-broadcast-season-preserve.trycloudflare.com/auth/shopify/callback",
-  "https://stones-broadcast-season-preserve.trycloudflare.com/api/auth/callback"
+  "https://induced-brake-judicial-copied.trycloudflare.com/auth/callback",
+  "https://induced-brake-judicial-copied.trycloudflare.com/auth/shopify/callback",
+  "https://induced-brake-judicial-copied.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

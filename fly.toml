@@ -6,6 +6,10 @@
 app = 'experiments-fly'
 primary_region = 'ewr'
 
+[mounts]
+  source="data"
+  destination="/data"
+
 [build]
 
 [env]

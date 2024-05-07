@@ -5,6 +5,7 @@ EXPOSE 3000
 WORKDIR /app
 COPY . .
 
+ENV DATABASE_URL=file:/data/sqlite.db
 ENV NODE_ENV=production
 
 RUN npm install --omit=dev

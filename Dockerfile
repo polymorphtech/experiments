@@ -5,6 +5,9 @@ EXPOSE 3000
 WORKDIR /app
 COPY . .
 
+# Install openssl for Prisma
+RUN apt-get update && apt-get install -y openssl sqlite3
+
 ENV DATABASE_URL=file:/data/sqlite.db
 ENV NODE_ENV=production
 
